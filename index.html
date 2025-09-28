@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Table Order — Restaurant</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Restaurant Table Ordering</h1>
+
+    <div class="row">
+      <label>Select Table</label>
+      <select id="tableSelect"></select>
+      <button id="callServiceBtn">Call Service</button>
+    </div>
+
+    <div class="row">
+      <h2>Menu</h2>
+      <div id="menuList"></div>
+    </div>
+
+    <div class="row">
+      <h2>Cart</h2>
+      <div id="cartList">No items</div>
+      <div class="cartTotals">Total: ₹ <span id="cartTotal">0.00</span></div>
+      <button id="placeOrderBtn">Place Order</button>
+      <button id="payOnlineBtn">Pay Now</button>
+    </div>
+
+    <div id="messages"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
